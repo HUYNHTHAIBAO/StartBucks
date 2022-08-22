@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="cricle"></div>
+      <header>
+        <a href=""><img src="img/logo.png" alt="" class="logo" /></a>
+        <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">menu</a></li>
+          <li><a href="">new</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just Coffee <br />It's<span> Starbucks</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ab
+            architecto delectus suscipit, incidunt alias fuga voluptatem in
+            reiciendis aspernatur quaerat cum officiis dolorum blanditiis iure
+            corrupti dolorem corporis consequatur.
+          </p>
+          <button href=""><a href="">learn more</a></button>
+        </div>
+        <div class="imgBox">
+          <img src="img/img1.png" alt="" class="starbucks" />
+        </div>
+      </div>
+      <div class="thumb">
+        <img
+          src="img/thumb1.png"
+          onclick="imgSlider('img/img1.png');changeColor('darkgreen')"
+          alt=""
+        />
+        <img
+          src="img/thumb2.png"
+          onclick="imgSlider('img/img2.png');changeColor('#dda38a')"
+          alt=""
+        />
+        <img
+          src="img/thumb3.png"
+          onclick="imgSlider('img/img3.png');changeColor('#86245B')"
+          alt=""
+        />
+      </div>
+      <div class="contact">
+        <img src="img/twitter.png" alt="" />
+        <img src="img/instagram.png" alt="" />
+        <img src="img/facebook.png" alt="" />
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
